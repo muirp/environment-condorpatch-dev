@@ -1,0 +1,10 @@
+adminUser:
+  password: local:condorpatch/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: pmuir@bleepbleep.org.uk
+  token: local:condorpatch/pipelineUser:token
+  username: muirp-owner
+prow:
+  hmacToken: local:condorpatch/prow:hmacToken
